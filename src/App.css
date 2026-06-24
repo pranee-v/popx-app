@@ -1,0 +1,37 @@
+/* Mobile frame that centers the app interface on the page */
+.page-shell {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 16px;
+  background: var(--color-bg-page);
+}
+
+.mobile-frame {
+  width: var(--app-width);
+  max-width: 100%;
+  min-height: 720px;
+  background: var(--color-bg-app);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 480px) {
+  .page-shell {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .mobile-frame {
+    width: 100%;
+    min-height: 100vh;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
