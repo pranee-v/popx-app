@@ -1,25 +1,20 @@
 # PopX
 
-React app for the PopX UI assignment. Has 4 screens - Welcome, Login, Sign Up, and Account Settings.
+This is my submission for the PopX frontend assignment. Built the 4 screens from the design - welcome page, login, signup and account settings.
 
-Live link: https://preeminent-semifreddo-af71b8.netlify.app/
+Live: https://preeminent-semifreddo-af71b8.netlify.app/
 
-## Pages
+### Pages
+- / -> welcome screen
+- /login
+- /signup
+- /account -> account settings page
 
-- `/` - Welcome screen
-- `/login` - Login page
-- `/signup` - Create account page
-- `/account` - Account settings page
+### Running it locally
 
-## How to run
 npm install
 npm run dev
 
-## Built with
+Used React with React Router for the page navigation, plain CSS for styling (no framework).
 
-- React
-- React Router
-- CSS
-
-## Build for production
-npm run build
+To build: npm run build
